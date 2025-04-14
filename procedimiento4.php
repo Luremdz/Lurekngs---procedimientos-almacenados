@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-color:rgb(255, 255, 255);
             position: relative;
         }
         
@@ -125,13 +125,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         .header-principal {
             text-align: center;
             padding: 20px 0;
-            background-color: #fff;
+            background-color:rgb(14, 23, 196);
             margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgb(14, 55, 219);
         }
         
         .header-principal h1 {
-            color: #333;
+            color: white;
             margin: 0;
             font-size: 24px;
         }
@@ -140,18 +140,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background-color: white;
+            background-color: blue;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgb(255, 255, 255);
         }
         
         .formulario-pago {
             max-width: 600px;
             margin: 0 auto 30px;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color:rgb(255, 255, 255);
             border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0,0,0,0.05);
+            box-shadow: 0 0 5px rgb(12, 14, 184);
         }
         
         .form-group {
@@ -178,7 +178,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             display: block;
             width: 100%;
             padding: 10px;
-            background-color: #4CAF50;
+            background-color:rgb(175, 18, 18);
             color: white;
             border: none;
             border-radius: 4px;
@@ -198,7 +198,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         }
         
         .tabla-pagos th {
-            background-color: #f2f2f2;
+            background-color:rgb(253, 253, 253);
             padding: 12px;
             text-align: left;
             border-bottom: 2px solid #ddd;
@@ -210,7 +210,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         }
         
         .tabla-pagos tr:nth-child(even) {
-            background-color: #f9f9f9;
+            background-color:rgb(97, 141, 252);
         }
         
         .mensaje {
@@ -221,7 +221,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         
         .mensaje-exito {
             background-color: #dff0d8;
-            color: #3c763d;
+            color:rgb(28, 148, 66);
             border: 1px solid #d6e9c6;
         }
         
