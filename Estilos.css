@@ -1,0 +1,111 @@
+/* estilos.css */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0; 
+    background-color: #f5f5f5;
+}
+
+/* HEADER */
+.header-principal {
+    background-color: #0649ae;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    width: 100vw;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-principal h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 1.5px;
+}
+
+/* FOOTER*/
+.footer-principal {
+    background-color: #0649ae;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    width: 100vw; /* Igual para el footer */
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.footer-principal p {
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+}
+
+/* Contenedor general*/
+main, .contenido, .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tabla-container {
+    margin: 20px 0;
+    overflow-x: auto;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #0649ae;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.tabla-estudiantes, .tabla-cursos {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.tabla-estudiantes th, 
+.tabla-cursos th {
+    background-color: #0649ae;
+    color: white;
+    padding: 30px;
+    text-align: left;
+    
+}
+
+.tabla-estudiantes td, 
+.tabla-cursos td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+    
+}
+
+.tabla-estudiantes tr:nth-child(even), 
+.tabla-cursos tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.tabla-estudiantes tr:hover, 
+.tabla-cursos tr:hover {
+    background-color: #f1f1f1;
+}
+
+.mensaje-vacio {
+    color: #7f8c8d;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-principal {
+        padding: 15px;
+    }
+}
